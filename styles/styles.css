@@ -11,8 +11,11 @@ html, body {
 .header {
     min-height: 400px;
     background-image: url("../content/header_background.png");
-    background-size: contain;
+    background-size: cover;
     display: flex;
+    box-sizing: border-box;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
 }
 
 .container {
@@ -113,7 +116,7 @@ html, body {
 
 .card {
     min-height: 480px;
-    min-width: 359px;
+    max-width: 359px;
     background: #FFFFFF;
     box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
@@ -222,6 +225,9 @@ html, body {
 .main__app {
     flex-grow: 1;
     position: relative;
+}
+.main__app img {
+    width: 100%;
 }
 
 .spark-lite__text {
