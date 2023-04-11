@@ -189,9 +189,9 @@ html, body {
     line-height: 30px;
     letter-spacing: 0.04em;
     color: #1F3F68;
-    margin-bottom: 56px;
     align-self: flex-start;
     padding-left: 56px;
+    padding-bottom: 56px;
 }
 
 .form__group {
