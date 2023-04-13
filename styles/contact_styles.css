@@ -170,8 +170,8 @@ html, body {
 }
 
 .form {
-    min-width: 540px;
-    min-height: 800px;
+    max-width: 540px;
+    max-height: 800px;
     background: #FFFFFF;
     box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
     border-radius: 10px;
@@ -180,6 +180,7 @@ html, body {
     align-items: center;
     flex-direction: column;
     box-sizing: border-box;
+    padding: 56px;
 }
 
 .form__title {
@@ -190,7 +191,6 @@ html, body {
     letter-spacing: 0.04em;
     color: #1F3F68;
     align-self: flex-start;
-    padding-left: 56px;
     padding-bottom: 56px;
 }
 
@@ -209,23 +209,21 @@ html, body {
 }
 
 .form__input {
-    min-width: 428px;
-    min-height: 72px;
     opacity: 0.4;
     border: 1px solid #356EAD;
     border-radius: 10px;
     box-sizing: border-box;
-    padding-left: 36px;
+    padding: 21px 284px 21px 36px;
+    max-width: 428px;
 }
 
 .form__text {
-    min-width: 428px;
-    min-height: 144px;
     opacity: 0.4;
     border: 1px solid #356EAD;
     border-radius: 10px;
     box-sizing: border-box;
-    padding: 21px 0 0 36px;
+    padding: 21px 284px 93px 36px;
+    max-width: 428px;
 }
 
 .form__btn {
